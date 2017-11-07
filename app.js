@@ -13,6 +13,7 @@ app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
 
+app.use(express.static(__dirname + '/public'));
 
 app.use(function (req, res, next) {
     console.log(req.method, req.url);

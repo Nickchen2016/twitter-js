@@ -34,4 +34,3 @@ function add (name, content) {
     module.exports.add( getFakeName(), getFakeTweet() );
   }
 
-  console.log(data)
